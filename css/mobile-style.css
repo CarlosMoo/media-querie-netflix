@@ -1,0 +1,115 @@
+@media(max-width: 415px)
+{
+        
+    header {
+        height: 700px;
+        
+    }
+
+    .ancho {
+        max-width: 414px;
+    }
+
+    #twitter{
+        position: fixed;
+        width: 100px;
+        height: 75px;
+        top: 410px;
+        right: 0px;
+        background-color: white;
+        border-radius: 40px 0 0 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .unirte {
+        width: 350px;
+        height: 80px;
+    }
+
+    .unirte:hover {
+        width: 350px;
+        height: 80px;
+    }
+
+    .unirte-left{
+        width: 250px;
+        height: 80px;
+        font-size: 20px;
+        margin-top: 50px;
+    }
+
+    .unirte-left:hover{
+        width: 250px;
+        height: 80px;
+        font-size: 20px;
+        margin-top: 50px;
+    }
+
+    .navbar ul{
+        height: 160px;
+    }
+
+    .navbar ul li a {
+        width: 120px;
+        font-size: 16px;
+    }
+
+    .navbar ul li a img {
+        height: 30px;
+        margin-bottom: 10px;
+    }
+
+    #select{
+        border-bottom: 5px red solid;
+    }
+
+    section figure img{
+        width: 100%;
+        padding: 45px 0;
+    }
+
+    section figure{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .precios{
+        height: 370px;
+    }
+
+    .precios h2{
+        font-size: 20px;
+    }
+
+    .tabla{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tabla h2{
+        text-align: center;
+    }
+
+
+    .preguntas div:nth-child(1){
+        display: none;
+    }
+
+    .preguntas div:nth-child(3){
+        display: none;
+    }
+
+    .español{
+        font-size: 16px;
+        justify-content: center;
+        height: 40px;
+        width: 130px;
+    }
+    
+    .español img{
+        height: 20px;
+    }
+
+}
